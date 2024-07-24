@@ -1,6 +1,6 @@
 # Hackaton-Fiap
 
-![image](https://github.com/user-attachments/assets/9e7e3ed5-658f-446b-bd24-aa554e95239b)
+![image](https://github.com/user-attachments/assets/20490bb7-d6f8-4923-bd84-223d61cc0e02)
 
 Contaremos com o **Amazon CloudFront** para garantir uma distribuição rápida e segura de conteúdo, melhorando significativamente a performance e reduzindo a latência globalmente. 
 
@@ -13,6 +13,8 @@ Optamos por **ECS Fargate** devido à facilidade de configuração e à rápida 
 Para gerenciar o fluxo de agendamento e cadastro, escolhemos o **DynamoDB** devido à sua natureza de banco de dados não relacional, permitindo armazenar objetos complexos contendo todas as agendas disponíveis e reservadas dos médicos, assim como informações de prontuários. 
 
 Além disso, implementaremos um segundo banco de dados **MySQL** para gerenciar os cadastros de usuários, aproveitando a facilidade de relacionamento entre tabelas e a alta performance em escalas maiores. Essas escolhas foram feitas com o objetivo de otimizar a eficiência operacional e a capacidade de resposta do sistema, garantindo uma experiência robusta e confiável para os usuários finais.
+
+E quase finalizando temos como proposta a utilização do **Amazon SES** que é uma solução confiável e escalável para enviar e-mails de maneira eficiente. Ele garante alta taxa de entrega e baixa chance de ser marcado como spam, oferecendo personalização através de templates e integração simples com o ECS.
 
 Para finalizar, todos os prontuários e receituarios serão armazenados de forma segura dentro de um **bucket S3**. O acesso aos prontuários será controlado por políticas de permissão rigorosas, garantindo que apenas médicos autorizados possam baixar os prontuários dos pacientes.
 
