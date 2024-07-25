@@ -15,7 +15,7 @@ Utilizaremos **Lambda** para gerenciamento de agenda, pesquisa de médicos, acei
 
 Utilizamos o padrão **SAGA** para garantirmos a consistência dos dados. O padrão SAGA divide uma transação longa em várias transações menores que podem ser desfeitas (compensadas) de forma independente. Isso assegura que, mesmo em caso de falhas, o sistema possa voltar a um estado consistente.
 
-O **Chime SDK** facilita a implementação de videochamadas e teleconsultas seguras e de alta qualidade. Ele oferece uma solução integrada para comunicação em tempo real, melhorando a interação entre médicos e pacientes de forma eficiente e escalável
+O **Chime SDK** (https://www.youtube.com/watch?v=xAEaCzYLlt4) facilita a implementação de videochamadas e teleconsultas seguras e de alta qualidade. Ele oferece uma solução integrada para comunicação em tempo real, melhorando a interação entre médicos e pacientes de forma eficiente e escalável
 que permite a implementação de áudio, vídeo e compartilhamento de tela em tempo real que faz sentindo para nosso projeto pensando no âmbito da TeleConsulta.
 
 Utilizamos o **SNS** pois permite a comunicação assíncrona entre serviços, garantindo que os sistemas possam continuar operando independentemente do estado ou da carga dos outros serviços. Isso é crucial para manter a performance e a disponibilidade. Ele garante que as mensagens sejam entregues, mesmo em caso de falhas em alguns componentes do sistema.
@@ -33,6 +33,9 @@ Para finalizar, todos os prontuários e receituarios serão armazenados de forma
 
 ##  Fluxograma do Sistema - Paciente
 ![image](https://github.com/user-attachments/assets/20aad976-fb06-402e-8510-386ac617aaf4)
+
+##  MVP
+https://www.youtube.com/watch?v=1D7yep6uyPM
 
 
 
